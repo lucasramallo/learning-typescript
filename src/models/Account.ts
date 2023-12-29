@@ -13,35 +13,35 @@ class Account {
         this.type = type;
     }
 
-    getId(): string {
+    public getId(): string {
         return this.id;
     }
 
-    setId(value: string) {
+    public setId(value: string) {
         this.id = value;
     }
 
-    getNumber(): string {
+    public getNumber(): string {
         return this.number;
     }
     
-    setNumber(value: string) {
+    public setNumber(value: string) {
         this.number = value;
     }
 
-    getBalance(): number {
+    public getBalance(): number {
         return this.balance;
     }
 
-    setBalance(value: number) {
+    public setBalance(value: number) {
         this.balance = value;
     }
 
-    getType(): string {
+    public getType(): string {
         return this.type;
     }
 
-    setType(value: string) {
+    public setType(value: string) {
         this.type = value;
     }
 

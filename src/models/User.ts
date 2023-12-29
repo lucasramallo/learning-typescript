@@ -14,34 +14,35 @@ class User {
         this.accounts = new Array;
     }
 
-    getId(): string {
+    public getId(): string {
         return this.id;
     }
-    setId(value: string) {
+
+    public setId(value: string) {
         this.id = value;
     }
 
-    getName(): string {
+    public getName(): string {
         return this.name;
     }
     
-    setName(value: string) {
+    public setName(value: string) {
         this.name = value;
     }
 
-    getDocument(): string {
+    public getDocument(): string {
         return this.document;
     }
 
-    setDocument(value: string) {
+    public setDocument(value: string) {
         this.document = value;
     }
 
-    getAccounts(): Account[] {
+    public getAccounts(): Account[] {
         return this.accounts;
     }
     
-    addAccount(account: Account) {
+    public addAccount(account: Account) {
         this.accounts.push(account);
     }
 }
